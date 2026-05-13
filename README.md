@@ -14,7 +14,6 @@ Resource Management: Disabled non-vital I/O services to free up clock cycles for
    -
 |System Specifications|                  |
 | :----| :-------------------------------|
-|       |                                    |
 | **CPU:** | Dual core proccesor             |
 |          |                                 |
 | **RAM:** |2GB DDR3|                        |
@@ -26,7 +25,6 @@ Results & Performance Delta
 -
 | Metric              |	    Stock Windows               |    Optimized Windows    |
 | :-----------------  | :------------------------------ |  :--------------------  |
-|                     |                                 |                         |
 |**Idle RAM Usage**       |  	~3.2 GB                       |   	~0.9 GB - 1.1 GB    |
 |                     |                                 |                         |
 |**Process Count**	      |      200+                       |      	< 60              |     
