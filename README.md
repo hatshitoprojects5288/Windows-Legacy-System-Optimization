@@ -15,9 +15,7 @@ Resource Management: Disabled non-vital I/O services to free up clock cycles for
 |System Specifications|                  |
 | :----| :-------------------------------|
 | **CPU:** | Dual core proccesor             |
-|          |                                 |
 | **RAM:** |2GB DDR3|                        |
-|          |                                 |
 | **Windows 10 Pro (22H2) / Windows 11 Pro** |
 
 ------------------------
@@ -26,11 +24,8 @@ Results & Performance Delta
 | Metric              |	    Stock Windows               |    Optimized Windows    |
 | :-----------------  | :------------------------------ |  :--------------------  |
 |**Idle RAM Usage**       |  	~3.2 GB                       |   	~0.9 GB - 1.1 GB    |
-|                     |                                 |                         |
 |**Process Count**	      |      200+                       |      	< 60              |     
-|                     |                                 |                         |
 |**Latency (DPC)**        |      600µs - 1200µs             |        < 60µs           |
-|                     |                                 |                         |
 |**Handle Count**         |       60,000+                   |     18,000 - 22,000     |
 
 ------------------------
