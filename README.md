@@ -12,7 +12,7 @@ Resource Management: Disabled non-vital I/O services to free up clock cycles for
 ------------------------
 1. The Performance Benchmarks
    -
-|System Specifications|                  |
+|System Specifications| Minimum Requirment   |
 | :----| :-------------------------------|
 | **CPU:** | Dual core proccesor             |
 | **RAM:** |2GB DDR3|                        |
