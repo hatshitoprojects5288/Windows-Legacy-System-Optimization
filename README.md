@@ -1,5 +1,22 @@
-Introduction
--
+# Windows Legacy System Optimization
+**Maintainer:** JOSHUA SAMAL | Software Engineer  
+**Target Architecture:** Intel Core Dual core Cpu) | 2GB DDR3 RAM  
+
+## 📌 Project Overview
+This repository documents the kernel-level optimization and registry tuning required to achieve a "Deterministic Performance State" on legacy Intel hardware. By reducing non-essential kernel interrupts and strictly managing memory paging, we can revitalize older hardware for high-performance workloads.
+
+## 📂 Repository Structure
+* `/core/` - Direct Windows Registry (`.reg`) payloads for CPU and Memory tuning.
+* `/src/` - PowerShell automation scripts for system auditing.
+* `/research/` - Technical deep-dives into the hardware logic and kernel adjustments.
+
+## ⚙️ Core Engineering Principles
+1. **Memory Paging Strategy:** Disabling `PagingExecutive` to keep kernel-mode drivers in physical RAM.
+2. **Thread Priority Logic:** Utilizing custom `Win32PrioritySeparation` hex values to prioritize foreground applications.
+
+   
+----
+# Introduction
 This project documents the systematic optimization of Windows 10/11, pro. The goal was to achieve a low-thread count and ultra-low RAM idle states for high-performance tactical for gaming and AI evaluation workloads.
 
 Technical Methodology
