@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+; Target: Dual core proccesors, System Responsiveness
+
+; [Win32PrioritySeparation]
+; Hex 26 (Dec 38) = Short, Fixed, High Foreground Boost
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\PriorityControl]
+"Win32PrioritySeparation"=dword:00000026
+
+; Disable Multimedia Class Scheduler Network Throttling
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile]
+"NetworkThrottlingIndex"=dword:ffffffff
+"SystemResponsiveness"=dword:00000000
