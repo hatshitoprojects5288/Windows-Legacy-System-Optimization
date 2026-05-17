@@ -1,5 +1,5 @@
 # Windows Legacy System Optimization
-**Maintainer:** JOSHUA SAMAL | Software Engineer  
+**Maintainer:** | Software Engineer  
 **Target Architecture:** Intel Core Dual core Cpu) | 2GB DDR3 RAM  
 
 ## 📌 Project Overview
