@@ -1,5 +1,4 @@
-# Windows Legacy System Optimization
-**Maintainer:** | Software Engineer  
+# Windows Legacy System Optimization  
 **Target Architecture:** Intel Core Dual core Cpu) | 2GB DDR3 RAM  
 
 ## 📌 Project Overview
